@@ -80,18 +80,18 @@ function! spaceline#colorscheme#nord#nord()
     call spaceline#colors#spaceline_hl('ShortRight', s:slc, 'darknavy', 'gray')
   endif
 
-  call spaceline#colors#spaceline_hl('InActiveFilename', s:slc, 'gray', 'gray')
-  call spaceline#colors#spaceline_hl('FileName', s:slc, 'black', 'gray')
+  call spaceline#colors#spaceline_hl('InActiveFilename', s:slc, 'white', 'gray')
+  call spaceline#colors#spaceline_hl('FileName', s:slc, 'white', 'gray')
   call spaceline#colors#spaceline_hl('Filesize', s:slc, 'purple', 'gray')
   call spaceline#colors#spaceline_hl('HeartSymbol', s:slc, 'orange',  'gray')
   call spaceline#colors#spaceline_hl('CocError',s:slc,  'red',  'gray')
   call spaceline#colors#spaceline_hl('CocWarn',s:slc,  'yellow',  'gray')
   call spaceline#colors#spaceline_hl('GitBranchIcon', s:slc, 'orange',  'gray')
-  call spaceline#colors#spaceline_hl('GitInfo',s:slc,  'black',  'gray')
+  call spaceline#colors#spaceline_hl('GitInfo',s:slc,  'white',  'gray')
   call spaceline#colors#spaceline_hl('GitAdd',s:slc,  'purple',  'gray')
   call spaceline#colors#spaceline_hl('GitRemove',s:slc,  'red',  'gray')
   call spaceline#colors#spaceline_hl('GitModified',s:slc,  'orange',  'gray')
-  call spaceline#colors#spaceline_hl('CocBar',s:slc,  'gray',  'darknavy')
+  call spaceline#colors#spaceline_hl('CocBar',s:slc,  'white',  'darknavy')
   if g:seperate_style == 'slant'
     call spaceline#colors#spaceline_hl('LineInfoLeft',s:slc,  'darknavy',  'gray')
   else
@@ -102,8 +102,8 @@ function! spaceline#colorscheme#nord#nord()
   else
       call spaceline#colors#spaceline_hl('LineFormatRight',s:slc,  'gray',  'gray')
   endif
-  call spaceline#colors#spaceline_hl('StatusEncod',s:slc,  'black',  'gray')
-  call spaceline#colors#spaceline_hl('StatusFileFormat',s:slc,  'black',  'gray')
+  call spaceline#colors#spaceline_hl('StatusEncod',s:slc,  'white',  'gray')
+  call spaceline#colors#spaceline_hl('StatusFileFormat',s:slc,  'white',  'gray')
   call spaceline#colors#spaceline_hl('StatusLineinfo',s:slc,  'white',  'gray')
   call spaceline#colors#spaceline_hl('EndSeperate',s:slc,  'purple',  'gray')
   call spaceline#colors#spaceline_hl('emptySeperate1',s:slc,  'gray',  'darknavy')
