@@ -8,6 +8,7 @@
 function! spaceline#file#file_type() abort
   return &filetype ==? 'help'             ? '  '  :
   \      &filetype ==? 'defx'             ? '  ' :
+  \      &filetype ==? 'fern'             ? '  ' :
   \      &filetype ==? 'chadtree'         ? '  ' :
   \      &filetype ==? 'nerdtree'         ? '  ' :
   \      &filetype ==? 'denite'           ? '  ' :
