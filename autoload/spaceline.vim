@@ -8,13 +8,12 @@
 function! s:short_statusline() abort
     let s:statusline=""
     let s:statusline.="%#HomeMode#"
-    let s:statusline.="%{spaceline#buffer#buffer()}"
+    let s:statusline.="%{spaceline#file#file_type()}"
     let s:statusline.="%#ShortRight#"
     let s:statusline.=g:sep.homemoderight
     let s:statusline.="%#emptySeperate1#"
     let s:statusline.="%="
     let s:statusline.="%#StatusLineinfo#"
-    let s:statusline.="%{spaceline#file#file_type()}"
     return s:statusline
 endfunction
 
