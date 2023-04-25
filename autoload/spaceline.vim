@@ -143,6 +143,7 @@ endfunction
 
 function! spaceline#spacelinetoggle()
 	if get(g:,'loaded_spaceline',0) ==1
+    set laststatus=2
     call s:SetStatusline()
   else
     let &l:statusline=''
