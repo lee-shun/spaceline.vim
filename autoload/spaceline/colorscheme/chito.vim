@@ -1,8 +1,8 @@
 function! spaceline#colorscheme#chito#chito()
   let s:slc={}
   let s:slc.white     = ['d8dee9', 255]
-  let s:slc.gray      = ['3c424d', 237]
-  let s:slc.black     = ['293140', 232]
+  let s:slc.gray      = ['475265', 237]
+  let s:slc.black     = ['3e4452', 232]
   let s:slc.yellow    = ['ebcb8b', 214]
   let s:slc.purple    = ['9481cd', 251]
   let s:slc.orange    = ['d08770', 208]
