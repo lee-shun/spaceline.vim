@@ -9,7 +9,7 @@ function! spaceline#colorscheme#chito#chito()
   let s:slc.red       = ['ca6c83', 203]
   let s:slc.blue      = ['679bd6', 32]
   let s:slc.cyan      = ['88c0d0', 225]
-  let s:slc.darknavy  = []
+  let s:slc.darknavy  = ['3e4452', 232]
 
   call spaceline#colors#match_background_color(s:slc.darknavy)
 
