@@ -1,7 +1,7 @@
 function! spaceline#colorscheme#onehalfdark#onehalfdark()
   let s:slc={}
   let s:slc.white     = ['dcdfe4', 188]
-  let s:slc.gray      = ['313640', 237]
+  let s:slc.gray      = ['373C45', 239]
   let s:slc.black     = ['3e4452', 232]
   let s:slc.yellow    = ['ebcb8b', 214]
   let s:slc.purple    = ['9481cd', 251]
@@ -9,7 +9,7 @@ function! spaceline#colorscheme#onehalfdark#onehalfdark()
   let s:slc.red       = ['ca6c83', 203]
   let s:slc.blue      = ['679bd6', 32]
   let s:slc.cyan      = ['88c0d0', 225]
-  let s:slc.darknavy  = ['373C45', 239]
+  let s:slc.darknavy  = ['313640', 237]
 
   call spaceline#colors#match_background_color(s:slc.darknavy)
 
