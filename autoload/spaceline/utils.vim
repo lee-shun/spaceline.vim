@@ -1,6 +1,6 @@
 
 function! spaceline#utils#line_is_lean() abort
-  return &filetype =~? '\v^defx|dbui|chadtree|mundo(diff)?$'
+  return &filetype =~? '\v^defx|dbui|chadtree|mundo(diff)|undotree|diff?$'
 endfunction
 
 function! spaceline#utils#line_is_plain() abort
