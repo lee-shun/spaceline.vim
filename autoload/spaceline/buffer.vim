@@ -11,7 +11,7 @@ endfunction
 
 function! s:buffer_number()
   let bfnumber = s:get_buffer_number()
-  let numberlist = exists('g:spaceline_custom_buffer_number') ? get(g:,'spaceline_custom_buffer_number') : [ ' ',' ',' ',' ', ' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ', ' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ' ]
+  let numberlist = exists('g:spaceline_custom_buffer_number') ? get(g:,'spaceline_custom_buffer_number') : [ '󰎢 ','󰎥 ','󰎨 ','󰎫 ', '󰎲 ','󰎯 ','󰎴 ','󰎷 ','󰎺 ','󰎽 ','󰿫 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ','󰏀 ']
   if bfnumber == 0
     return ''
   endif

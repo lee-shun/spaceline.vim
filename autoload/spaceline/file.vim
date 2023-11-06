@@ -7,14 +7,14 @@
 
 function! spaceline#file#file_type() abort
   return &filetype ==? 'help'             ? '  '  :
-  \      &filetype ==? 'defx'             ? '  ' :
-  \      &filetype ==? 'fern'             ? '  ' :
-  \      &filetype ==? 'vimfiler'             ? '  ' :
-  \      &filetype ==? 'chadtree'         ? '  ' :
-  \      &filetype ==? 'nerdtree'         ? '  ' :
-  \      &filetype ==? 'denite'           ? '  ' :
-  \      &filetype ==? 'vim-plug'         ? '  ' :
-  \      &filetype ==? 'vista'            ? ' 識' :
+  \      &filetype ==? 'defx'             ? ' 󰙅 ' :
+  \      &filetype ==? 'fern'             ? ' 󰙅 ' :
+  \      &filetype ==? 'vimfiler'         ? ' 󰙅 ' :
+  \      &filetype ==? 'chadtree'         ? ' 󰙅 ' :
+  \      &filetype ==? 'nerdtree'         ? ' 󰙅 ' :
+  \      &filetype ==? 'denite'           ? '  ' :
+  \      &filetype ==? 'vim-plug'         ? '  ' :
+  \      &filetype ==? 'vista'            ? ' 󰉺 ' :
   \      &filetype ==? 'vista_kind'       ? '  ' :
   \      &filetype ==? 'dbui'             ? '  ' :
   \      &filetype ==? 'magit'            ? '  ' :

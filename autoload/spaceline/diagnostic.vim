@@ -56,7 +56,7 @@ endfunction
 
 function! s:coc_quickfixes() abort
   let b:coc_line_fixes = get(get(b:, 'coc_quickfixes', {}), line('.'), 0)
-  return b:coc_line_fixes > 0 ? printf('%d ', b:coc_line_fixes) : ''
+  return b:coc_line_fixes > 0 ? printf('%d 󰁨', b:coc_line_fixes) : ''
 endfunction
 
 function! s:diagnostic_nvim_lsp_error()
