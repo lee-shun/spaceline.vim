@@ -60,7 +60,7 @@ function! spaceline#syntax#get_icon()
   let l:icon = ''
   if exists("*WebDevIconsGetFileTypeSymbol")
     let l:icon = substitute(WebDevIconsGetFileTypeSymbol(), "\u00A0", '', '')
-  else
+  elseif has('nvim') && luaeval('pcall(require, "nvim-web-devicons")')
     let l:file_name = expand("%:t")
     let l:file_extension = expand("%:e")
     if luaeval("require('nvim-web-devicons').get_icon")(l:file_name,l:file_extension) == v:null
